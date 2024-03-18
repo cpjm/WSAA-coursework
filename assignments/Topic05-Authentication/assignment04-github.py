@@ -41,26 +41,42 @@ apikey = cfg["githubkey"]
 # https://stackoverflow.com/questions/74857784/how-to-add-python-files-to-a-new-repository-in-github
 # https://docs.github.com/en/rest/repos/contents?apiVersion=2022-11-28
 # https://docs.github.com/en/rest/repos/contents?apiVersion=2022-11-28#update-a-file
+# https://stackoverflow.com/questions/56548113/use-python-along-with-github-api-to-collect-data-from-a-repo
+# https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api?apiVersion=2022-11-28
 
 # Test access and list repo names
 g = Github(apikey)
-for repo in g.get_user().get_repos():
- print(repo.name)
+#for repo in g.get_user().get_repos():
+# print(repo.name)
 
 # Open my git repository
 #url = 'https://github.com/cpjm/WSAA-coursework/tree/main/assignments/Topic05%20Authentication/'
-url = 'https://github.com/cpjm/WSAA-coursework/tree/main/assignments/Topic05 Authentication/'
-#url = 'assignments/Topic05%20Authentication/'
-filename = "testfile.txt"
+#url = 'https://github.com/cpjm/WSAA-coursework/tree/main/assignments/Topic05-Authentication/'
+url = 'https://github.com/cpjm/WSAA-coursework/'
+filename = "assignments/Topic05-Authentication/testfile.txt"
 
-repo = Repo(url)
+#repo = Repo(url)
+#repo in g.get_user().get_repo('https://github.com/cpjm/WSAA-coursework')
+#repo = g.get_user().get_repo(url)
+
+print("**********Get Current Repos**********")
+user = g.get_user()
+user.login
+print(user.login)
+print("**********Get Current Repos - 1**********")
+#repo = g.get_repo('http://api.github.com/repos/cpjm/WSAA-coursework/assignments/Topic05-Authentication')
+repo = user.get_repo('WSAA-coursework')
+print("**********Get Current Repos - 2**********")
+repo.name
+print(repo.name)
+print("********Get the Repo Topics**************")
 
 # Fetch latest changes
-origin = repo.remotes.origin
-origin.fetch()
+#origin = repo.remotes.origin
+#origin.fetch()
 
 # Checkout to master branch
-repo.git.checkout('master')
+repo.git.checkout('/assignments/Topic05-Authentication/testfile.txt')
 
 # Replace text
 # with help from https://stackoverflow.com/questions/4128144/replace-string-within-file-contents
