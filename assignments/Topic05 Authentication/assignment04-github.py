@@ -14,8 +14,7 @@ from config import config as cfg
 
 filename = "repos-private.json"
 
-#url = 'https://api.github.com/repos/andrewbeattycourseware/datarepresentation/contents/code'
-url = 'https://api.github.com/repos/andrewbeattycourseware/aprivateone'
+url = 'https://github.com/cpjm/WSAA-coursework/tree/main/assignments/Topic05%20Authentication'
 
 # the more basic way of setting authorization
 #headers = {'Authorization': 'token ' + apikey}

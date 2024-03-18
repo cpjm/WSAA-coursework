@@ -1,0 +1,6 @@
+This is a text file to change the word "A n d r e w" ( without the spaces) to my name "Ciaran".
+This is first Andrew
+Second word Andrew
+3rd word Andrew
+4th Andrew
+Last Andrew
