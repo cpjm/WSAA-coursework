@@ -1,6 +1,129 @@
-This is a text file to change the word "A n d r e w" ( without the spaces) to my name "Ciaran".
-This is first Andrew
-Second word Andrew
-3rd word Andrew
-4th Andrew
-Last Andrew
+{
+    "payload": {
+        "allShortcutsEnabled": false,
+        "path": "assignments/Topic05 Authentication",
+        "repo": {
+            "id": 746906517,
+            "defaultBranch": "main",
+            "name": "WSAA-coursework",
+            "ownerLogin": "cpjm",
+            "currentUserCanPush": false,
+            "isFork": false,
+            "isEmpty": false,
+            "createdAt": "2024-01-22T22:32:12.000Z",
+            "ownerAvatar": "https://avatars.githubusercontent.com/u/32358598?v=4",
+            "public": true,
+            "private": false,
+            "isOrgOwned": false
+        },
+        "currentUser": null,
+        "refInfo": {
+            "name": "main",
+            "listCacheKey": "v0:1705962733.7112262",
+            "canEdit": false,
+            "refType": "branch",
+            "currentOid": "2166d0d9c4371dac319a21dba5bc823f13e8fd44"
+        },
+        "tree": {
+            "items": [
+                {
+                    "name": ".gitignore",
+                    "path": "assignments/Topic05 Authentication/.gitignore",
+                    "contentType": "file"
+                },
+                {
+                    "name": "assignment04-github.py",
+                    "path": "assignments/Topic05 Authentication/assignment04-github.py",
+                    "contentType": "file"
+                },
+                {
+                    "name": "repos-private.json",
+                    "path": "assignments/Topic05 Authentication/repos-private.json",
+                    "contentType": "file"
+                },
+                {
+                    "name": "testfile.txt",
+                    "path": "assignments/Topic05 Authentication/testfile.txt",
+                    "contentType": "file"
+                }
+            ],
+            "templateDirectorySuggestionUrl": null,
+            "readme": null,
+            "totalCount": 4,
+            "showBranchInfobar": false
+        },
+        "fileTree": {
+            "assignments": {
+                "items": [
+                    {
+                        "name": "Topic02 Representing Data",
+                        "path": "assignments/Topic02 Representing Data",
+                        "contentType": "directory"
+                    },
+                    {
+                        "name": "Topic04 Reading apis in the wild",
+                        "path": "assignments/Topic04 Reading apis in the wild",
+                        "contentType": "directory"
+                    },
+                    {
+                        "name": "Topic05 Authentication",
+                        "path": "assignments/Topic05 Authentication",
+                        "contentType": "directory"
+                    }
+                ],
+                "totalCount": 3
+            },
+            "": {
+                "items": [
+                    {
+                        "name": "assignments",
+                        "path": "assignments",
+                        "contentType": "directory"
+                    },
+                    {
+                        "name": "labs",
+                        "path": "labs",
+                        "contentType": "directory"
+                    },
+                    {
+                        "name": ".gitignore",
+                        "path": ".gitignore",
+                        "contentType": "file"
+                    },
+                    {
+                        "name": "LICENSE",
+                        "path": "LICENSE",
+                        "contentType": "file"
+                    },
+                    {
+                        "name": "README.md",
+                        "path": "README.md",
+                        "contentType": "file"
+                    },
+                    {
+                        "name": "cso.json",
+                        "path": "cso.json",
+                        "contentType": "file"
+                    }
+                ],
+                "totalCount": 6
+            }
+        },
+        "fileTreeProcessingTime": 2.810339,
+        "foldersToFetch": [],
+        "treeExpanded": true,
+        "symbolsExpanded": false,
+        "csrf_tokens": {
+            "/cpjm/WSAA-coursework/branches": {
+                "post": "r4q6oNgQOvdoU0pWhH0WzdSpLRsmm30YoZetjDPQE6_TyDe2M6DJOnWHFxF2Q9gm0btl7_B-ocDls9RfaiVccA"
+            },
+            "/cpjm/WSAA-coursework/branches/fetch_and_merge/main": {
+                "post": "ZdscdkoehuJLE6KsqKa0FXvcz_7sNOZ9dbQpfG1fgvOZ3Je-z6UqdaGTUdEatWUNnCKhVoJyC6CHNngSEppx0Q"
+            },
+            "/cpjm/WSAA-coursework/branches/fetch_and_merge/main?discard_changes=true": {
+                "post": "OsdHWO71uCqH0FGAVXmDhxHc2S9fYflsgkA1OV0alYLGwMyQa04UvW1Qov3nalKf9iK3hzEnFLFwwmRXIt9moA"
+            }
+        }
+    },
+    "title": "WSAA-coursework/assignments/Topic05 Authentication at main \u00b7 cpjm/WSAA-coursework"
+}
