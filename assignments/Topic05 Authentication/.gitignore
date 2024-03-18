@@ -159,5 +159,6 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# Ignore config.py file, especially for any API keys
+# ignore this file to that we don't upload api key info
 config.py
+
